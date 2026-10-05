@@ -90,7 +90,7 @@ export default function Home() {
       <main>
         <section className="hero">
           <h1>Aarohan</h1>
-          <p>NIT Durgapur. Scroll to turn through the events.</p>
+          <div className="theme" role="heading" aria-level={2}>OVERRIDE</div>
         </section>
         <section className="events" id="events">
           <div className="stage" id="sc">

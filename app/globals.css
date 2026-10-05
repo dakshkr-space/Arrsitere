@@ -9,6 +9,7 @@ main{position:relative;z-index:1}
 .hero::before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(60% 90% at 0% 55%,rgba(196,50,58,.38),transparent 70%),radial-gradient(60% 90% at 100% 55%,rgba(196,50,58,.38),transparent 70%),linear-gradient(90deg,rgba(150,36,44,.28),transparent 18%,transparent 82%,rgba(150,36,44,.28))}
 .hero>*{position:relative}
 .hero h1{font-family:var(--font-display),sans-serif;font-weight:300;font-size:clamp(44px,11vw,168px);line-height:.9;letter-spacing:-.04em;margin:0}
+.theme{font-family:var(--font-display),sans-serif;font-weight:600;font-size:clamp(18px,3.4vw,52px);line-height:1;letter-spacing:.06em;margin:clamp(12px,2vh,24px) 0 0;background:linear-gradient(180deg,#ffffff 0%,#d6d3d9 30%,#6a666e 47%,#f1eef2 52%,#a6a2aa 76%,#ffffff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 2px 0 rgba(0,0,0,.65)) drop-shadow(0 0 28px rgba(196,50,58,.4));user-select:none}
 .hero p{max-width:34ch;color:var(--dim);font-size:17px;line-height:1.5;margin:20px 0 0}
 .events{position:relative;height:calc(100svh + 5*70svh)}
 .stage{position:sticky;top:0;height:100svh;overflow:hidden;perspective:1500px;perspective-origin:50% 46%}
